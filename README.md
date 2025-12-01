@@ -12,8 +12,8 @@ sbi_workshop_Legend2025/
 └── notebooks/             # Jupyter notebooks for the workshop
       ├── 1_introduction_to_sbi.ipynb
       ├── 2_data_simulation_msprime.ipynb
-      ├── 3_SBI_in_popgen.ipynb
-      ├── 4_complex_scenario.ipynb
+      ├── 3_sbi_in_popgen.ipynb
+      ├── 4_playground_complex_scenario.ipynb
       └── 5_snakemake_workflow.ipynb
 
 ```
@@ -61,14 +61,19 @@ SBI in inference of popgen parameters
 * Inferring effective population size ($N_e$) and recombination rates from SFS data.
 * The whole workflow: generating training data ($\theta, x$), training the density estimator, and performing posterior predictive checks.
 
-### Notebook 4: Complex Demographic Scenarios
-Handling real-world complexity and custom classes.
-* Defining custom Object-Oriented simulators for variable population sizes over time.
+### Notebook 4: Playground and Complex Demographic Scenarios
+Handling real-world complexity and custom classes. 
+* Defining custom prior and model simulation.
 
 ### Notebook 5: Snakemake Workflow
 Reproducibility and scaling.
 * Integrating the [popgensbi_snakemake](https://github.com/kr-colab/popgensbi_snakemake) pipeline.
 * Automating training and prediction tasks via Snakemake configurations.
+
+---
+
+## Acknowledgement
+Thanks to Prof.Franz Baumdicker, Dr.Lukas Tatzel, Dr.Hannah Götsch, Axel Fehrenbach, and Johannes Kippnich for building up this workshop together. 
 
 ---
 
