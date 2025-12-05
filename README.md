@@ -38,6 +38,11 @@ We recommend using **Visual Studio Code** or JupyterLab for exploring the notebo
    conda activate sbi-workshop
    ```
    The `requirements.yaml` file lists the core dependencies (`msprime`, `tskit`, `torch`, `sbi`, `matplotlib`, etc.).  Feel free to install additional packages manually. 
+   
+   You might need to upgrade jupyter:
+   ```bash
+   pip install --upgrade notebook jupyter_server jupyterlab jupyter_core traitlets
+   ```
 
 4. **Launch notebooks**: Open the notebooks folder in VS Code or run
 
