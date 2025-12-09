@@ -80,8 +80,3 @@ Reproducibility and scaling.
 ## Acknowledgement
 Thanks to Prof.Franz Baumdicker, Dr.Lukas Tatzel, Dr.Hannah Götsch, Axel Fehrenbach, and Johannes Kippnich for building up this workshop together. 
 
----
-
-## Contributing
-
-...
